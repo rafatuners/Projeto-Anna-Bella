@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #d2d2c1 url(imagens/fundo.png); 
+    font: 16px Arial, Helvetica, sans-serif;   
+        
+}
+
+#principal{
+    width: 900px;
+}
+
+#menu{
+    margin: 2px;
+    padding: 18px;
+    background-color: #c5c5b2;    
+}
+
+a{
+    text-decoration: none;    
+    text-transform: uppercase;
+    font-weight: bold;    
+    color: #4b566a;
+    padding: 5px;
+    
+}
+
+a:hover{    
+    cursor: grabbing;
+}
+
+#conteudo{
+    background-color: #e8e8d9;
+    padding: 10px;
+    
+}
+
+h2{
+    color: #828271;
+    font-size: 1.2em;
+    
+}
+
+p{
+    padding: 10px;    
+    font-weight: 500;
+}
+
+.foto{
+    border: 10px solid #c3c3ae;
+}
+
+.contato{
+    font-weight: bolder;
+    
+}
+
+#rodape{
+    text-align: center;
+    padding: 10px;
+}
